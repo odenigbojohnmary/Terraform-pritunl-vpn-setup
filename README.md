@@ -37,4 +37,4 @@ pritunl default-password
 ![My Image](attach-server-to-org.png)
 
 # start the server
-![My Image](astart-server.png)
+![My Image](start-server.png)
