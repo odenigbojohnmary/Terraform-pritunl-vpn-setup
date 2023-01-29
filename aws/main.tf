@@ -36,7 +36,7 @@ resource "aws_instance" "pritunl" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = var.instance_type
   key_name      = var.aws_key_name
-  user_data     = file("provision.sh")
+  user_data     = file("./provisioners/ubuntu-20.sh")
 
   vpc_security_group_ids = [
     aws_security_group.pritunl.id,
